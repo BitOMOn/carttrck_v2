@@ -12,51 +12,42 @@
         "rap": true,
         "rh": 0,
         "inputs": 0,
-        "x": 410,
-        "y": 340,
+        "x": 450,
+        "y": 840,
         "wires": [
             [
-                "57451b049e4e8caf",
-                "165f9bed85cfbdf4"
+                "70c62565bbf40f82",
+                "9828e3c727c2fca6",
+                "04e8a3ef5bd46a6d",
+                "05d2583873f2d114",
+                "91ba0615610810cc",
+                "4e3b3290dfdac973",
+                "c72066d4a6e9b118",
+                "970282be36e583d8",
+                "7e30db18bc3bf24d",
+                "45533e9c235cdfd6",
+                "32c21baa16d8ea82",
+                "f82b3efa3186b31c",
+                "d0d34996c3eb0c91",
+                "39f81098b7d55840",
+                "971cfb6ab9ab227b",
+                "c045a564f0ae0ab6",
+                "a97ea07554bb39ab",
+                "7c88dd56d0cedb14",
+                "5ee7dda9ab228fb9",
+                "bed55db20a2acd6a",
+                "eaa12ddee20c496f",
+                "e2c1030d88e5f0bd",
+                "eb2f7fb90b004e0b",
+                "b06cc27965d587cf",
+                "79690751de345f77",
+                "d6ad88869c25c8c8",
+                "774b5f0a27f34a09",
+                "e0c82346f2d07f07",
+                "68439318bc6a49b9",
+                "7478aef6823af749"
             ]
         ]
-    },
-    {
-        "id": "57451b049e4e8caf",
-        "type": "debug",
-        "z": "f6f2187d.f17ca8",
-        "name": "debug 1",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 680,
-        "y": 240,
-        "wires": []
-    },
-    {
-        "id": "0406aefe6adaf86a",
-        "type": "ui_text",
-        "z": "f6f2187d.f17ca8",
-        "group": "df960744ba9429e0",
-        "order": 0,
-        "width": "0",
-        "height": "0",
-        "name": "",
-        "label": "error",
-        "format": "{{msg.payload.error}}",
-        "layout": "row-spread",
-        "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": "",
-        "color": "#000000",
-        "x": 810,
-        "y": 740,
-        "wires": []
     },
     {
         "id": "eaa12ddee20c496f",
@@ -75,8 +66,92 @@
         "font": "",
         "fontSize": "",
         "color": "#000000",
-        "x": 810,
-        "y": 780,
+        "x": 870,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "e2c1030d88e5f0bd",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "df960744ba9429e0",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "vesc_amphour",
+        "format": "{{msg.payload.vesc_amphour}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 900,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "79690751de345f77",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "df960744ba9429e0",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "vesc_watthour",
+        "format": "{{msg.payload.vesc_watthour}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 900,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "eb2f7fb90b004e0b",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "df960744ba9429e0",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "vesc_distance",
+        "format": "{{msg.payload.vesc_distance}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": "",
+        "color": "#000000",
+        "x": 900,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "f82b3efa3186b31c",
+        "type": "ui_text",
+        "z": "f6f2187d.f17ca8",
+        "group": "df960744ba9429e0",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 870,
+        "y": 440,
         "wires": []
     },
     {
@@ -103,8 +178,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1070,
-        "y": 380,
+        "x": 870,
+        "y": 80,
         "wires": []
     },
     {
@@ -131,8 +206,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1070,
-        "y": 420,
+        "x": 870,
+        "y": 120,
         "wires": []
     },
     {
@@ -159,8 +234,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1090,
-        "y": 460,
+        "x": 890,
+        "y": 160,
         "wires": []
     },
     {
@@ -187,8 +262,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1100,
-        "y": 500,
+        "x": 900,
+        "y": 200,
         "wires": []
     },
     {
@@ -215,50 +290,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1100,
-        "y": 540,
-        "wires": []
-    },
-    {
-        "id": "e2c1030d88e5f0bd",
-        "type": "ui_text",
-        "z": "f6f2187d.f17ca8",
-        "group": "df960744ba9429e0",
-        "order": 7,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "vesc_amphour",
-        "format": "{{msg.payload.vesc_amphour}}",
-        "layout": "row-spread",
-        "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": "",
-        "color": "#000000",
-        "x": 840,
-        "y": 860,
-        "wires": []
-    },
-    {
-        "id": "79690751de345f77",
-        "type": "ui_text",
-        "z": "f6f2187d.f17ca8",
-        "group": "df960744ba9429e0",
-        "order": 8,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "vesc_watthour",
-        "format": "{{msg.payload.vesc_watthour}}",
-        "layout": "row-spread",
-        "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": "",
-        "color": "#000000",
-        "x": 840,
-        "y": 900,
+        "x": 900,
+        "y": 240,
         "wires": []
     },
     {
@@ -285,29 +318,8 @@
         "seg2": "",
         "diff": false,
         "className": "",
-        "x": 1080,
-        "y": 580,
-        "wires": []
-    },
-    {
-        "id": "eb2f7fb90b004e0b",
-        "type": "ui_text",
-        "z": "f6f2187d.f17ca8",
-        "group": "df960744ba9429e0",
-        "order": 10,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "vesc_distance",
-        "format": "{{msg.payload.vesc_distance}}",
-        "layout": "row-spread",
-        "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": "",
-        "color": "#000000",
-        "x": 840,
-        "y": 940,
+        "x": 880,
+        "y": 280,
         "wires": []
     },
     {
@@ -334,108 +346,8 @@
         "seg2": "30",
         "diff": false,
         "className": "",
-        "x": 1120,
-        "y": 620,
-        "wires": []
-    },
-    {
-        "id": "575e8ab66e9e3679",
-        "type": "debug",
-        "z": "f6f2187d.f17ca8",
-        "name": "debug 1",
-        "active": false,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 780,
-        "y": 360,
-        "wires": []
-    },
-    {
-        "id": "53664b33a26317f2",
-        "type": "json",
-        "z": "f6f2187d.f17ca8",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 690,
-        "y": 480,
-        "wires": [
-            [
-                "575e8ab66e9e3679",
-                "0406aefe6adaf86a",
-                "eaa12ddee20c496f",
-                "39f81098b7d55840",
-                "971cfb6ab9ab227b",
-                "c045a564f0ae0ab6",
-                "a97ea07554bb39ab",
-                "7c88dd56d0cedb14",
-                "e2c1030d88e5f0bd",
-                "79690751de345f77",
-                "5ee7dda9ab228fb9",
-                "eb2f7fb90b004e0b",
-                "bed55db20a2acd6a",
-                "d0d34996c3eb0c91",
-                "f82b3efa3186b31c"
-            ]
-        ]
-    },
-    {
-        "id": "165f9bed85cfbdf4",
-        "type": "json",
-        "z": "f6f2187d.f17ca8",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 550,
-        "y": 420,
-        "wires": [
-            [
-                "53664b33a26317f2",
-                "a128461696266654"
-            ]
-        ]
-    },
-    {
-        "id": "a128461696266654",
-        "type": "debug",
-        "z": "f6f2187d.f17ca8",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 740,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "f82b3efa3186b31c",
-        "type": "ui_text",
-        "z": "f6f2187d.f17ca8",
-        "group": "df960744ba9429e0",
-        "order": 13,
-        "width": 0,
-        "height": 0,
-        "name": "",
-        "label": "text",
-        "format": "{{msg.payload}}",
-        "layout": "row-spread",
-        "className": "",
-        "style": false,
-        "font": "",
-        "fontSize": 16,
-        "color": "#000000",
-        "x": 810,
-        "y": 820,
+        "x": 920,
+        "y": 320,
         "wires": []
     },
     {
@@ -448,7 +360,7 @@
         "width": "6",
         "height": "6",
         "gtype": "gage",
-        "title": "vesc_batpercentage",
+        "title": "battery_temperature",
         "label": "C",
         "format": "{{msg.payload.battery_temperature}}",
         "min": 0,
@@ -462,8 +374,1016 @@
         "seg2": "70",
         "diff": false,
         "className": "",
+        "x": 920,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "8ba6d7d950f26643",
+        "type": "influxdb out",
+        "z": "f6f2187d.f17ca8",
+        "influxdb": "a2dd0176355cc1ae",
+        "name": "",
+        "measurement": "avgMotorCurrent",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "evo",
+        "bucket": "rT4Xaw2bSTKFKmXZxw5u",
+        "x": 1200,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "70c62565bbf40f82",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "msg.payload.avgMotorCurrent",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 840,
+        "wires": [
+            [
+                "e1d49df57497d95a",
+                "8ba6d7d950f26643"
+            ]
+        ]
+    },
+    {
+        "id": "e1d49df57497d95a",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 5",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
         "x": 1120,
-        "y": 660,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "9828e3c727c2fca6",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "msg.payload.avgInputCurrent",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 920,
+        "wires": [
+            [
+                "1eb25f93a4590c82",
+                "4341fcfc41e5275d"
+            ]
+        ]
+    },
+    {
+        "id": "1eb25f93a4590c82",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 6",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "04e8a3ef5bd46a6d",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "msg.payload.dutyCycleNow",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 1000,
+        "wires": [
+            [
+                "3a9337ec1a8b0416",
+                "c122197c9e4bfe45"
+            ]
+        ]
+    },
+    {
+        "id": "05d2583873f2d114",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "msg.payload.rpm",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 1080,
+        "wires": [
+            [
+                "f01526cc324b9fe1",
+                "f250737037211d45"
+            ]
+        ]
+    },
+    {
+        "id": "3a9337ec1a8b0416",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 7",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "f01526cc324b9fe1",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 8",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "4e3b3290dfdac973",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "msg.payload.inpVoltage",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 1160,
+        "wires": [
+            [
+                "cc71d450feeff0c6",
+                "7b8c9bb4606e9bcf"
+            ]
+        ]
+    },
+    {
+        "id": "cc71d450feeff0c6",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 9",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 1200,
+        "wires": []
+    },
+    {
+        "id": "c72066d4a6e9b118",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "msg.payload.ampHours",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 1240,
+        "wires": [
+            [
+                "c6ee989bb6ea365f",
+                "5357ea147a5de502"
+            ]
+        ]
+    },
+    {
+        "id": "c6ee989bb6ea365f",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 10",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "970282be36e583d8",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "msg.payload.wattHours",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 1320,
+        "wires": [
+            [
+                "97ec92a176ff7c61",
+                "3dbe6baec7e68c46"
+            ]
+        ]
+    },
+    {
+        "id": "7e30db18bc3bf24d",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "msg.payload.wattHoursCharged",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 1400,
+        "wires": [
+            [
+                "2b0748d694372f55",
+                "2d8cf22596cfa087"
+            ]
+        ]
+    },
+    {
+        "id": "97ec92a176ff7c61",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 11",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 1360,
+        "wires": []
+    },
+    {
+        "id": "2b0748d694372f55",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 12",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "45533e9c235cdfd6",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "msg.payload.tachometer",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 1480,
+        "wires": [
+            [
+                "2274482e0ec1d7df",
+                "3a9ed93afe218aeb"
+            ]
+        ]
+    },
+    {
+        "id": "2274482e0ec1d7df",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 13",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 1520,
+        "wires": []
+    },
+    {
+        "id": "32c21baa16d8ea82",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "msg.payload.tachometerAbs",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 1560,
+        "wires": [
+            [
+                "6252bf5e26bbd99b",
+                "e3412e7bf2d33f67"
+            ]
+        ]
+    },
+    {
+        "id": "6252bf5e26bbd99b",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 14",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "91ba0615610810cc",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "msg.payload.tempMosfet",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 1640,
+        "wires": [
+            [
+                "120410b0c27c5c91",
+                "0c7f6124a06d87c8"
+            ]
+        ]
+    },
+    {
+        "id": "120410b0c27c5c91",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 15",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "4341fcfc41e5275d",
+        "type": "influxdb out",
+        "z": "f6f2187d.f17ca8",
+        "influxdb": "a2dd0176355cc1ae",
+        "name": "",
+        "measurement": "avgInputCurrent",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "evo",
+        "bucket": "rT4Xaw2bSTKFKmXZxw5u",
+        "x": 1210,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "c122197c9e4bfe45",
+        "type": "influxdb out",
+        "z": "f6f2187d.f17ca8",
+        "influxdb": "a2dd0176355cc1ae",
+        "name": "",
+        "measurement": "dutyCycleNow",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "evo",
+        "bucket": "rT4Xaw2bSTKFKmXZxw5u",
+        "x": 1210,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "f250737037211d45",
+        "type": "influxdb out",
+        "z": "f6f2187d.f17ca8",
+        "influxdb": "a2dd0176355cc1ae",
+        "name": "",
+        "measurement": "rpm",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "evo",
+        "bucket": "rT4Xaw2bSTKFKmXZxw5u",
+        "x": 1160,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "7b8c9bb4606e9bcf",
+        "type": "influxdb out",
+        "z": "f6f2187d.f17ca8",
+        "influxdb": "a2dd0176355cc1ae",
+        "name": "",
+        "measurement": "inpVoltage",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "evo",
+        "bucket": "rT4Xaw2bSTKFKmXZxw5u",
+        "x": 1180,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "5357ea147a5de502",
+        "type": "influxdb out",
+        "z": "f6f2187d.f17ca8",
+        "influxdb": "a2dd0176355cc1ae",
+        "name": "",
+        "measurement": "ampHours",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "evo",
+        "bucket": "rT4Xaw2bSTKFKmXZxw5u",
+        "x": 1180,
+        "y": 1240,
+        "wires": []
+    },
+    {
+        "id": "3dbe6baec7e68c46",
+        "type": "influxdb out",
+        "z": "f6f2187d.f17ca8",
+        "influxdb": "a2dd0176355cc1ae",
+        "name": "",
+        "measurement": "wattHours",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "evo",
+        "bucket": "rT4Xaw2bSTKFKmXZxw5u",
+        "x": 1180,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "2d8cf22596cfa087",
+        "type": "influxdb out",
+        "z": "f6f2187d.f17ca8",
+        "influxdb": "a2dd0176355cc1ae",
+        "name": "",
+        "measurement": "wattHoursCharged",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "evo",
+        "bucket": "rT4Xaw2bSTKFKmXZxw5u",
+        "x": 1220,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "3a9ed93afe218aeb",
+        "type": "influxdb out",
+        "z": "f6f2187d.f17ca8",
+        "influxdb": "a2dd0176355cc1ae",
+        "name": "",
+        "measurement": "tachometer",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "evo",
+        "bucket": "rT4Xaw2bSTKFKmXZxw5u",
+        "x": 1190,
+        "y": 1480,
+        "wires": []
+    },
+    {
+        "id": "e3412e7bf2d33f67",
+        "type": "influxdb out",
+        "z": "f6f2187d.f17ca8",
+        "influxdb": "a2dd0176355cc1ae",
+        "name": "",
+        "measurement": "tachometerAbs",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "evo",
+        "bucket": "rT4Xaw2bSTKFKmXZxw5u",
+        "x": 1200,
+        "y": 1560,
+        "wires": []
+    },
+    {
+        "id": "0c7f6124a06d87c8",
+        "type": "influxdb out",
+        "z": "f6f2187d.f17ca8",
+        "influxdb": "a2dd0176355cc1ae",
+        "name": "",
+        "measurement": "tempMosfet",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "evo",
+        "bucket": "rT4Xaw2bSTKFKmXZxw5u",
+        "x": 1190,
+        "y": 1640,
+        "wires": []
+    },
+    {
+        "id": "b06cc27965d587cf",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 17",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "d6ad88869c25c8c8",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "msg.payload.tempMotor",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 1720,
+        "wires": [
+            [
+                "a002326ef9d000c0",
+                "5d0eb81957fdf41a"
+            ]
+        ]
+    },
+    {
+        "id": "774b5f0a27f34a09",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "msg.payload.velocity",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 1800,
+        "wires": [
+            [
+                "bf8fda808d8785ee",
+                "bf7ed2befc9b8e28"
+            ]
+        ]
+    },
+    {
+        "id": "a002326ef9d000c0",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 18",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "bf8fda808d8785ee",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 19",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 1840,
+        "wires": []
+    },
+    {
+        "id": "e0c82346f2d07f07",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "msg.payload.batpercentage",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 1880,
+        "wires": [
+            [
+                "08813721e6c52181",
+                "4e946d37e9eb6717"
+            ]
+        ]
+    },
+    {
+        "id": "08813721e6c52181",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 20",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 1920,
+        "wires": []
+    },
+    {
+        "id": "68439318bc6a49b9",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "msg.payload.power",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 1960,
+        "wires": [
+            [
+                "7d32ebf186075cb7",
+                "dbe7bda79c1496fa"
+            ]
+        ]
+    },
+    {
+        "id": "7d32ebf186075cb7",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 21",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "7478aef6823af749",
+        "type": "change",
+        "z": "f6f2187d.f17ca8",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "msg.payload.tempBattery",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 900,
+        "y": 2040,
+        "wires": [
+            [
+                "6fda33d2fb3daa3b",
+                "39f59bc0ea78a653"
+            ]
+        ]
+    },
+    {
+        "id": "6fda33d2fb3daa3b",
+        "type": "debug",
+        "z": "f6f2187d.f17ca8",
+        "name": "debug 22",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1120,
+        "y": 2080,
+        "wires": []
+    },
+    {
+        "id": "5d0eb81957fdf41a",
+        "type": "influxdb out",
+        "z": "f6f2187d.f17ca8",
+        "influxdb": "a2dd0176355cc1ae",
+        "name": "",
+        "measurement": "tempMotor",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "evo",
+        "bucket": "rT4Xaw2bSTKFKmXZxw5u",
+        "x": 1190,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "bf7ed2befc9b8e28",
+        "type": "influxdb out",
+        "z": "f6f2187d.f17ca8",
+        "influxdb": "a2dd0176355cc1ae",
+        "name": "",
+        "measurement": "velocity",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "evo",
+        "bucket": "rT4Xaw2bSTKFKmXZxw5u",
+        "x": 1190,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "4e946d37e9eb6717",
+        "type": "influxdb out",
+        "z": "f6f2187d.f17ca8",
+        "influxdb": "a2dd0176355cc1ae",
+        "name": "",
+        "measurement": "batpercentage",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "evo",
+        "bucket": "rT4Xaw2bSTKFKmXZxw5u",
+        "x": 1200,
+        "y": 1880,
+        "wires": []
+    },
+    {
+        "id": "dbe7bda79c1496fa",
+        "type": "influxdb out",
+        "z": "f6f2187d.f17ca8",
+        "influxdb": "a2dd0176355cc1ae",
+        "name": "",
+        "measurement": "power",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "evo",
+        "bucket": "rT4Xaw2bSTKFKmXZxw5u",
+        "x": 1170,
+        "y": 1960,
+        "wires": []
+    },
+    {
+        "id": "39f59bc0ea78a653",
+        "type": "influxdb out",
+        "z": "f6f2187d.f17ca8",
+        "influxdb": "a2dd0176355cc1ae",
+        "name": "",
+        "measurement": "tempBattery",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "evo",
+        "bucket": "rT4Xaw2bSTKFKmXZxw5u",
+        "x": 1190,
+        "y": 2040,
         "wires": []
     },
     {
@@ -517,10 +1437,24 @@
         "className": ""
     },
     {
+        "id": "a2dd0176355cc1ae",
+        "type": "influxdb",
+        "hostname": "140.238.203.25",
+        "port": "8086",
+        "protocol": "http",
+        "database": "database",
+        "name": "db",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "2.0",
+        "url": "http://140.238.203.25:8086",
+        "rejectUnauthorized": false
+    },
+    {
         "id": "0cfd61ba0f47f917",
         "type": "ui_tab",
         "name": "rT4Xaw2bSTKFKmXZxw5u",
-        "icon": "dashboard",
+        "icon": "live_circle",
         "disabled": false,
         "hidden": false
     }
